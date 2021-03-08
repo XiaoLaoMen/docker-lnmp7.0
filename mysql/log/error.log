@@ -1,0 +1,70 @@
+2021-02-09 06:59:24 465 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2021-02-09 06:59:24 465 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-09 06:59:24 465 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-02-09 06:59:24 465 [Note] InnoDB: Memory barrier is not used
+2021-02-09 06:59:24 465 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-02-09 06:59:24 465 [Note] InnoDB: Using Linux native AIO
+2021-02-09 06:59:24 465 [Note] InnoDB: Using CPU crc32 instructions
+2021-02-09 06:59:24 465 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-02-09 06:59:24 465 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-09 06:59:24 465 [Note] InnoDB: The first specified data file ./ibdata1 did not exist: a new database to be created!
+2021-02-09 06:59:24 465 [Note] InnoDB: Setting file ./ibdata1 size to 12 MB
+2021-02-09 06:59:24 465 [Note] InnoDB: Database physically writes the file full: wait...
+2021-02-09 06:59:24 465 [Note] InnoDB: Setting log file ./ib_logfile101 size to 48 MB
+2021-02-09 06:59:24 465 [Note] InnoDB: Setting log file ./ib_logfile1 size to 48 MB
+2021-02-09 06:59:24 465 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2021-02-09 06:59:24 465 [Warning] InnoDB: New log files created, LSN=45781
+2021-02-09 06:59:24 465 [Note] InnoDB: Doublewrite buffer not found: creating new
+2021-02-09 06:59:24 465 [Note] InnoDB: Doublewrite buffer created
+2021-02-09 06:59:24 465 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-09 06:59:24 465 [Warning] InnoDB: Creating foreign key constraint system tables.
+2021-02-09 06:59:24 465 [Note] InnoDB: Foreign key constraint system tables created
+2021-02-09 06:59:24 465 [Note] InnoDB: Creating tablespace and datafile system tables.
+2021-02-09 06:59:24 465 [Note] InnoDB: Tablespace and datafile system tables created.
+2021-02-09 06:59:24 465 [Note] InnoDB: Waiting for purge to start
+2021-02-09 06:59:24 465 [Note] InnoDB: 5.6.51 started; log sequence number 0
+2021-02-09 06:59:24 465 [Note] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2021-02-09 06:59:24 465 [Note] RSA public key file not found: /var/lib/mysql//public_key.pem. Some authentication plugins will not work.
+2021-02-09 06:59:24 465 [Note] Binlog end
+2021-02-09 06:59:24 465 [Note] InnoDB: FTS optimize thread exiting.
+2021-02-09 06:59:24 465 [Note] InnoDB: Starting shutdown...
+2021-02-09 06:59:26 465 [Note] InnoDB: Shutdown completed; log sequence number 1625977
+2021-02-09 06:59:26 488 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2021-02-09 06:59:26 488 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-09 06:59:26 488 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-02-09 06:59:26 488 [Note] InnoDB: Memory barrier is not used
+2021-02-09 06:59:26 488 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-02-09 06:59:26 488 [Note] InnoDB: Using Linux native AIO
+2021-02-09 06:59:26 488 [Note] InnoDB: Using CPU crc32 instructions
+2021-02-09 06:59:26 488 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-02-09 06:59:26 488 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-09 06:59:26 488 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-09 06:59:26 488 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-09 06:59:26 488 [Note] InnoDB: Waiting for purge to start
+2021-02-09 06:59:26 488 [Note] InnoDB: 5.6.51 started; log sequence number 1625977
+2021-02-09 06:59:26 488 [Note] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2021-02-09 06:59:26 488 [Note] RSA public key file not found: /var/lib/mysql//public_key.pem. Some authentication plugins will not work.
+2021-02-09 06:59:26 488 [Note] Binlog end
+2021-02-09 06:59:26 488 [Note] InnoDB: FTS optimize thread exiting.
+2021-02-09 06:59:26 488 [Note] InnoDB: Starting shutdown...
+2021-02-09 06:59:28 488 [Note] InnoDB: Shutdown completed; log sequence number 1625987
+2021-02-09 06:59:28 513 [Note] Plugin 'FEDERATED' is disabled.
+2021-02-09 06:59:28 513 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2021-02-09 06:59:28 513 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-09 06:59:28 513 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-02-09 06:59:28 513 [Note] InnoDB: Memory barrier is not used
+2021-02-09 06:59:28 513 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-02-09 06:59:28 513 [Note] InnoDB: Using Linux native AIO
+2021-02-09 06:59:28 513 [Note] InnoDB: Using CPU crc32 instructions
+2021-02-09 06:59:28 513 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-02-09 06:59:28 513 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-09 06:59:28 513 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-09 06:59:28 513 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-09 06:59:28 513 [Note] InnoDB: Waiting for purge to start
+2021-02-09 06:59:28 513 [Note] InnoDB: 5.6.51 started; log sequence number 1625987
+2021-02-09 06:59:28 513 [Note] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2021-02-09 06:59:28 513 [Note] RSA public key file not found: /var/lib/mysql//public_key.pem. Some authentication plugins will not work.
+2021-02-09 06:59:28 513 [Note] Binlog end
+2021-02-09 06:59:28 513 [Note] InnoDB: FTS optimize thread exiting.
+2021-02-09 06:59:28 513 [Note] InnoDB: Starting shutdown...
+2021-02-09 06:59:30 513 [Note] InnoDB: Shutdown completed; log sequence number 1625997

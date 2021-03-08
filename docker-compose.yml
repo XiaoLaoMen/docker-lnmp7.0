@@ -1,0 +1,45 @@
+version: "3"
+services:
+  mysql:
+    hostname: mysql
+    restart: always
+    image: mysql:5.6
+    container_name: mysql
+    ports:
+      - "3366:3306"
+    volumes:
+      - ./mysql/config:/etc/mysql
+      - ./mysql/log:/var/log/mysql
+      - ./mysql/data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+  php:
+    hostname: php
+    restart: always
+    container_name: php
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    ports:
+      - "19000:9000"
+    links:
+      - mysql:mysql
+    volumes:
+      - ./php/php:/usr/local/etc/php
+      - ./php/php-fpm.conf:/usr/local/etc/php-fpm.conf
+      - ./php/php-fpm.conf.default:/usr/local/etc/php-fpm.conf.default
+      - ./php/php-fpm.d:/usr/local/etc/php-fpm.d
+      - ./html:/var/www/html
+  nginx:
+    hostname: nginx
+    restart: always
+    container_name: nginx
+    image: nginx:1.17.0
+    ports:
+      - "8000:80"
+    links:
+      - "php:php"
+    volumes:
+      - ./nginx/config:/etc/nginx
+      - ./nginx/log:/var/log/nginx
+      - ./html:/usr/share/nginx/html
